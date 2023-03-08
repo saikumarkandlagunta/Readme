@@ -1,0 +1,33 @@
+AMit KT:
+
+1.If Bus load is not going to 0: 
+Method 1: Parkbreak and key 0ff
+Method 2: Tecu 51  53 to real
+
+2.Rig is cranking and going to off
+ Check for Ems starter control pin 9 3, 10 3 there should me some resistace
+K-factor: 
+
+3. If VDS is not fullyOperational
+check the Yaw rate sensor and Steering angle
+
+VSt file for that vision tool should be connected and the cancase excel should be connected to the EMS powertrain canH & CanL. eMS 12-14 &12-16
+
+4. BBm in canoe is BB3 canh and canl of BBm ecu.
+
+
+rocker switch: 166: esc enable
+	       167: esc resume
+		169: pto
+
+5. SRS Hit the ECu and then open IG block in BB2 network and then add physdiagreqmsg_53_f1_bb2 and then send to clear the crash test add the values as 4 14 0 0 0 0 0 0 0
+
+
+6. for trailer coupling feedback 1 and 2 are ok 10.9
+cciom 5th wheel feedback pin 10.9 connected to cciom bat- 6.7.
+
+
+
+
+
+
